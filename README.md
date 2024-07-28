@@ -32,21 +32,10 @@ Ran on host: http://127.0.0.1:5000
 ![File text corrected](https://github.com/user-attachments/assets/60b23b9a-0592-4ea1-8d75-992c6909bb1d)
 
 ## Workflow
-### User Interface: 
-- The interface is built using HTML, CSS, and Bootstrap for styling.
-- Users can input text directly into a textarea or upload a file using the provided form.
-- The results, including corrected text and identified grammar mistakes, are displayed on the same page.
-
 ### Backend Processing:
 - The backend is developed using Python and Flask, which handles form submissions and file uploads.
 - Text processing for grammar and spelling corrections is performed using natural language processing (NLP) libraries.
 - Libraries and Technologies Used
-
-### Frontend:
-- HTML: Provides the structure of the web page.
-- CSS: Custom styles are added for better user experience.
-- Bootstrap: Used for responsive design and styling of forms and buttons.
-- JavaScript: Utilized for handling form submissions and integrating Bootstrap functionalities.
 
 ### Backend:
 - Python: The primary programming language for backend development.
@@ -54,3 +43,14 @@ Ran on host: http://127.0.0.1:5000
 - Natural Language Toolkit (nltk): A library used for text processing and grammar checking.
 - TextBlob: Simplifies text processing tasks like part-of-speech tagging, noun phrase extraction, and sentiment analysis.
 - Flask-WTF: An extension of Flask for handling web forms.
+
+### User Interface: 
+- The interface is built using HTML, CSS, and Bootstrap for styling.
+- Users can input text directly into a textarea or upload a file using the provided form.
+- The results, including corrected text and identified grammar mistakes, are displayed on the same page.
+
+### Frontend:
+- HTML: Provides the structure of the web page.
+- CSS: Custom styles are added for better user experience.
+- Bootstrap: Used for responsive design and styling of forms and buttons.
+- JavaScript: Utilized for handling form submissions and integrating Bootstrap functionalities.
