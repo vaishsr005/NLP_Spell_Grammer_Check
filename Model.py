@@ -7,7 +7,6 @@ class SpellCheckerModule:
         self.grammar_check = LanguageTool('en-US')
 
     def correct_spell(self, text):
-        # Hello, World, subscribe, to my channel
         words = text.split()
         corrected_words = []
         for word in words:
